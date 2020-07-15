@@ -1,8 +1,24 @@
 .App {
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
+/* new */
+body{
+  background-color: #696969;
+}
+.App .navbar-brand{
+  font-weight: bold;
+  font-size: 200%;
+  color: #ffd631;
+  font-family: "Pokemon", monospace;
+}
+.app-nav-bar {
+  background-color: #3c5aa6;
+  border-radius: 10px 40px;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -14,7 +30,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #696969;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
