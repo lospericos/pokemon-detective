@@ -1,26 +1,36 @@
-import React from 'react';
+import React, {Component} from 'react';
+import {Container, Nav, Navbar} from 'react-bootstrap';
+import {Link, withRouter} from 'react-router-dom';
+import Routes from './Routes';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+  
+  render() {
+    return (
+      <div className="App">
+        <Container>
+          <Navbar collapseOnSelect className="app-nav-bar" variant="dark" expand="lg">
+            <Navbar.Brand href="/">PokeDetective</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="">
+                <Link className="nav-link" to="/">Detect</Link>
+                <Link className="nav-link" to="/about">About</Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </Container>
+        <Container>
+          <Routes />
+        </Container>
+      </div>
+    );
+  }
 }
 
-export default App;
+//export default App;
+
+export default withRouter(App);
