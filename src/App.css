@@ -1,6 +1,7 @@
 .App {
   margin-top: 20px;
   text-align: center;
+  font-family: "Pokemon", monospace;
 }
 
 /* new */
@@ -11,11 +12,15 @@ body{
   font-weight: bold;
   font-size: 200%;
   color: #ffd631;
-  font-family: "Pokemon", monospace;
+  /* font-family: "Pokemon", monospace; */
 }
 .app-nav-bar {
+  /* font-family: "Pokemon", monospace; */
   background-color: #3c5aa6;
   border-radius: 10px 40px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ffd631c7;
 }
 
 /* .App-logo {
