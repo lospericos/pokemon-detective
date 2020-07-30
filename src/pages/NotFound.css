@@ -1,8 +1,12 @@
 notfound-logo{
-    height: auto;
-    width: 100%;
+    flex: 1;
+    width: 50;
+    height: 50;
+    resizeMode: 'contain'
 }
+
 
 .NotFound {
     color: white;
+    font-family: "Pokemon", monospace;
 }
