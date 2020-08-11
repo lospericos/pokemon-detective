@@ -1,5 +1,5 @@
-from tensorflow.keras import applications
+from keras import applications
 
 
-model = applications.densenet.DenseNet121()
+model = applications.mobilenet.MobileNetV2()
 model.save('./mobilenet-model.h5')

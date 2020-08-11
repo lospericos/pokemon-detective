@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import About from './pages/About';
-import List from './pages/List';
+//import List from './pages/List';
 import Detect from './pages/Detect';
 import NotFound from './pages/NotFound';
 

@@ -13,7 +13,7 @@ import './Detect.css';
 import 'cropperjs/dist/cropper.css';
 
 //import Modal from '../components/ModalForm';
-import { white } from 'color-name';
+//import { white } from 'color-name';
 import {useState} from 'react';
 import {Modal} from 'react-bootstrap';
 
@@ -27,7 +27,7 @@ const INDEXEDDB_DB = 'tensorflowjs';
 const INDEXEDDB_STORE = 'model_info_store';
 const INDEXEDDB_KEY = 'web-model';
 
-function Example() {
+function ModalExample() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -36,7 +36,7 @@ function Example() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+      <strong>INCORRECT: Tap here to make correction</strong>
       </Button>
 
       <Modal show={show} onHide={handleClose}>
@@ -298,7 +298,7 @@ export default class Detect extends Component {
       topkValues[i] = valuesAndIndices[i].value;
       topkIndices[i] = valuesAndIndices[i].index;
     }
-
+    console.log(topkIndices)
     const topClassesAndProbs = [];
     for (let i = 0; i < topkIndices.length; i++) {
       topClassesAndProbs.push({
@@ -306,6 +306,8 @@ export default class Detect extends Component {
         probability: (topkValues[i] * 100).toFixed(2)
       });
     }
+    console.log("pp poo poo")
+    console.log(topClassesAndProbs)
     return topClassesAndProbs;
   }
 
@@ -335,72 +337,9 @@ export default class Detect extends Component {
     }
   }
 
-  Testalert = event =>{ //async Testalert() { //
-        alert("THE FUCK YOU MEAN");
-
-        // const [show, setShow] = useState(false);
-
-        // const handleClose = () => setShow(false);
-        // const handleShow = () => setShow(true);
-
-        // return (
-        //     <>
-        //     <Modal show={show} onHide={handleClose}>
-        //         <Modal.Header closeButton>
-        //         <Modal.Title>Modal heading</Modal.Title>
-        //         </Modal.Header>
-        //         <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        //         <Modal.Footer>
-        //         <Button variant="secondary" onClick={handleClose}>
-        //             Close
-        //         </Button>
-        //         <Button variant="primary" onClick={handleClose}>
-        //             Save Changes
-        //         </Button>
-        //         </Modal.Footer>
-        //     </Modal>
-        //     </>
-        // );
-        // this.render(<Modal />)
-        // return(Modal)
-  }
-  openModal = event => {
-    this.setState({ showModal: true });
-  }
-  closeModal = event => {
-    this.setState({ showModal: false });
-  }
-
   render() {
     return (
       <div className="Classify container" >
-
-      { this.state.showModal &&
-        // <Modal > {/*show={this.setState({showModal: true})} onHide={this.setState({showModal: false})}>*/}
-        // <Modal.Header closeButton>
-        //   <Modal.Title>Modal heading</Modal.Title>
-        // </Modal.Header>
-        // <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
-        // <Modal.Footer>
-        //   <Button variant="secondary" onClick={this.closeModal}>
-        //     Close
-        //   </Button>
-        //   <Button variant="primary" onClick={this.Testalert}>
-        //     Save Changes
-        //   </Button>
-        // </Modal.Footer>
-        // </Modal>
-        // <Container>
-        //   <Modal />
-        // </Container>
-        <div> Butthol 
-        </div>
-
-            
-        
-        
-       
-      }
 
       { !this.state.modelLoaded &&
         <Fragment>
@@ -542,41 +481,11 @@ export default class Detect extends Component {
                   return (
                     <ListGroup.Item key={category.className} >
                       <strong>{category.className}</strong> {category.probability}%
-
                     </ListGroup.Item>
                   );
               })}
-                <ListGroup.Item active onClick={this.Testalert}>
-                    <strong> INCORRECT: Tap here to help fix </strong>
-                </ListGroup.Item>
-                <ListGroup.Item active onClick={this.openModal}>
-                    <strong> Modal test </strong>
-                </ListGroup.Item>
 
-                <Example />
-                {/* <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                  None of the Above: Tap here to fix
-                </button>
-                <div class="modal fade" id="exampleModal" zindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        ...
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
-
+                <ModalExample />
 
               </ListGroup>
             </div>
