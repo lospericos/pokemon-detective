@@ -44,9 +44,9 @@ class App extends Component {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="">
-                <Link className="nav-link" to="/">Detect</Link>
-                <Link className="nav-link" to="/list">PokéList</Link>
-                <Link className="nav-link" to="/about">About</Link>
+                <Link className="nav-link" to={process.env.PUBLIC_URL+"/"}>Detect</Link>
+                <Link className="nav-link" to={process.env.PUBLIC_URL+"/list"}>PokéList</Link>
+                <Link className="nav-link" to={process.env.PUBLIC_URL+"/about"}>About</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
