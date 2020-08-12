@@ -10,5 +10,5 @@ export default ({ childProps }) =>
     <Route path={process.env.PUBLIC_URL+"/"} exact component={Detect} props={childProps} />
     {/* <Route path="/list" exact component={List} props={childProps} /> */}
     <Route path={process.env.PUBLIC_URL+"/about"} exact component={About} props={childProps} />
-    <Route path="*" component={NotFound} />
+    <Route component={NotFound} />
   </Switch>;
