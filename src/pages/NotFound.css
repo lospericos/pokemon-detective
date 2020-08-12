@@ -2,6 +2,8 @@ notfound-logo{
     flex: 1;
     max-width: auto;
     max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
     /* resizeMode: 'contain'; */
 }
 

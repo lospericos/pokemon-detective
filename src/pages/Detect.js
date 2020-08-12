@@ -27,7 +27,7 @@ const INDEXEDDB_DB = 'tensorflowjs';
 const INDEXEDDB_STORE = 'model_info_store';
 const INDEXEDDB_KEY = 'web-model';
 
-function ModalExample() {
+function Modal1() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -36,14 +36,14 @@ function ModalExample() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-      <strong>INCORRECT: Tap here to make correction</strong>
+      <strong>WRONG: Tap to make correction</strong>
       </Button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>CORRECTION?!?!?</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>Who you callin wrong, bish</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
@@ -298,7 +298,6 @@ export default class Detect extends Component {
       topkValues[i] = valuesAndIndices[i].value;
       topkIndices[i] = valuesAndIndices[i].index;
     }
-    console.log(topkIndices)
     const topClassesAndProbs = [];
     for (let i = 0; i < topkIndices.length; i++) {
       topClassesAndProbs.push({
@@ -306,8 +305,7 @@ export default class Detect extends Component {
         probability: (topkValues[i] * 100).toFixed(2)
       });
     }
-    console.log("pp poo poo")
-    console.log(topClassesAndProbs)
+
     return topClassesAndProbs;
   }
 
@@ -485,7 +483,7 @@ export default class Detect extends Component {
                   );
               })}
 
-                <ModalExample />
+                <Modal1 />
 
               </ListGroup>
             </div>
