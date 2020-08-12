@@ -18,7 +18,7 @@ import {useState} from 'react';
 import {Modal} from 'react-bootstrap';
 
 
-const MODEL_PATH = '/model/model.json';
+const MODEL_PATH = './model/model.json';
 const IMAGE_SIZE = 224;
 const CANVAS_SIZE = 224;
 const TOPK_PREDICTIONS = 4;
