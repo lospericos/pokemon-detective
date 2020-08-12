@@ -7,8 +7,8 @@ import NotFound from './pages/NotFound';
 
 export default ({ childProps }) =>
   <Switch>
-    <Route path="/" exact component={Detect} props={childProps} />
+    <Route path={process.env.PUBLIC_URL+"/"} exact component={Detect} props={childProps} />
     {/* <Route path="/list" exact component={List} props={childProps} /> */}
-    <Route path="/about" exact component={About} props={childProps} />
-    <Route component={NotFound} />
+    <Route path={process.env.PUBLIC_URL+"/about"} exact component={About} props={childProps} />
+    <Route path="*" component={NotFound} />
   </Switch>;
