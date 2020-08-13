@@ -5,6 +5,8 @@
     border-radius: 15px;
     border-style:outset;
     font-family: "Pokemon", monospace;
+    /* width: auto;
+    height: auto; */
   }
 
 .Classify .imagefile {

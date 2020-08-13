@@ -356,7 +356,7 @@ export default class Detect extends Component {
           aria-controls="photo-selection-pane"
           aria-expanded={this.state.photoSettingsOpen}
           >
-          Take/Select a Photo | Detect a Pokemon!
+          Tap Here to Detect a Pokemon!
             <span className='panel-arrow'>
             { this.state.photoSettingsOpen
               ? <FaChevronDown />
