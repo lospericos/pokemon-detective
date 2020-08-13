@@ -356,7 +356,7 @@ export default class Detect extends Component {
           aria-controls="photo-selection-pane"
           aria-expanded={this.state.photoSettingsOpen}
           >
-          Take or Select a Photo to Classify
+          Take/Select a Photo | Detect a Pokemon!
             <span className='panel-arrow'>
             { this.state.photoSettingsOpen
               ? <FaChevronDown />
@@ -423,8 +423,8 @@ export default class Detect extends Component {
                     size="lg"
                     onClick={this.classifyWebcamImage}
                     isLoading={this.state.isClassifying}
-                    text="Classify"
-                    loadingText="Classifying..."
+                    text="Detect"
+                    loadingText="Detecting..."
                   />
                 </div>
               </Tab>
@@ -459,8 +459,8 @@ export default class Detect extends Component {
                         disabled={!this.state.filename}
                         onClick={this.classifyLocalImage}
                         isLoading={this.state.isClassifying}
-                        text="Classify"
-                        loadingText="Classifying..."
+                        text="Detect"
+                        loadingText="Detecting..."
                       />
                     </div>
                   </Fragment>
