@@ -2,9 +2,10 @@
     margin-top: 20px;
     background-color: red;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 35px;
     border-style:outset;
     font-family: "Pokemon", monospace;
+
   }
 
 .Classify .imagefile {
@@ -77,6 +78,8 @@ width: 100%;
 background-color: rgba(0,0,0,.03);;
 color: #fff;
 font-weight: bold;
+/* font-size: 24px; */
+font-size: 150%;
 border-color: rgba(255, 255, 255, 0.37); 
 }
 
@@ -98,6 +101,7 @@ padding-bottom: 12px;
 border-radius: 5px;
 border-style:inset;
 border-width:10px; 
+
 }
 
 .Classify .panel-arrow {
