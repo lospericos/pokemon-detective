@@ -43,7 +43,7 @@ function Modal1() {
         <Modal.Header closeButton>
           <Modal.Title>CORRECTION?!?!?</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Who you callin wrong, bish</Modal.Body>
+        <Modal.Body>Who you callin wrong, buddy</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
