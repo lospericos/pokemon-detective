@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/pokemon-detective/static/css/main.b9ef1136.chunk.css",
-    "main.js": "/pokemon-detective/static/js/main.fda4d72c.chunk.js",
-    "main.js.map": "/pokemon-detective/static/js/main.fda4d72c.chunk.js.map",
+    "main.css": "/pokemon-detective/static/css/main.bc2df4a7.chunk.css",
+    "main.js": "/pokemon-detective/static/js/main.87e8d417.chunk.js",
+    "main.js.map": "/pokemon-detective/static/js/main.87e8d417.chunk.js.map",
     "runtime-main.js": "/pokemon-detective/static/js/runtime-main.8e99f17f.js",
     "runtime-main.js.map": "/pokemon-detective/static/js/runtime-main.8e99f17f.js.map",
     "static/css/2.ec2531fa.chunk.css": "/pokemon-detective/static/css/2.ec2531fa.chunk.css",
     "static/js/2.520ffaf7.chunk.js": "/pokemon-detective/static/js/2.520ffaf7.chunk.js",
     "static/js/2.520ffaf7.chunk.js.map": "/pokemon-detective/static/js/2.520ffaf7.chunk.js.map",
     "index.html": "/pokemon-detective/index.html",
-    "precache-manifest.ac8a932757828bcfcb0fadf01356ed81.js": "/pokemon-detective/precache-manifest.ac8a932757828bcfcb0fadf01356ed81.js",
+    "precache-manifest.7bb18910bc68ca9dc21136c3cfc99423.js": "/pokemon-detective/precache-manifest.7bb18910bc68ca9dc21136c3cfc99423.js",
     "service-worker.js": "/pokemon-detective/service-worker.js",
     "static/css/2.ec2531fa.chunk.css.map": "/pokemon-detective/static/css/2.ec2531fa.chunk.css.map",
-    "static/css/main.b9ef1136.chunk.css.map": "/pokemon-detective/static/css/main.b9ef1136.chunk.css.map",
+    "static/css/main.bc2df4a7.chunk.css.map": "/pokemon-detective/static/css/main.bc2df4a7.chunk.css.map",
     "static/js/2.520ffaf7.chunk.js.LICENSE.txt": "/pokemon-detective/static/js/2.520ffaf7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e99f17f.js",
     "static/css/2.ec2531fa.chunk.css",
     "static/js/2.520ffaf7.chunk.js",
-    "static/css/main.b9ef1136.chunk.css",
-    "static/js/main.fda4d72c.chunk.js"
+    "static/css/main.bc2df4a7.chunk.css",
+    "static/js/main.87e8d417.chunk.js"
   ]
 }
