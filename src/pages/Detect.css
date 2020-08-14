@@ -52,7 +52,6 @@ padding-bottom: 24px;
 box-sizing: border-box;
 display: inline-block;
 max-width: 95%;
-
 }
 
 .Classify .webcam-box-inner {
@@ -66,8 +65,8 @@ overflow: hidden;
 }
 
 .Classify #webcam {
-/* height: 280px; */
-max-height: 70%;
+height: 280px;
+/* max-height: 50%; */
 
 }
 
