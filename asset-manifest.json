@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pokemon-detective/static/css/main.6874a158.chunk.css",
+    "main.css": "/pokemon-detective/static/css/main.89f1041e.chunk.css",
     "main.js": "/pokemon-detective/static/js/main.e54902cc.chunk.js",
     "main.js.map": "/pokemon-detective/static/js/main.e54902cc.chunk.js.map",
     "runtime-main.js": "/pokemon-detective/static/js/runtime-main.8e99f17f.js",
@@ -9,17 +9,17 @@
     "static/js/2.520ffaf7.chunk.js": "/pokemon-detective/static/js/2.520ffaf7.chunk.js",
     "static/js/2.520ffaf7.chunk.js.map": "/pokemon-detective/static/js/2.520ffaf7.chunk.js.map",
     "index.html": "/pokemon-detective/index.html",
-    "precache-manifest.4035f16b46326e7c1f506b2a3226f480.js": "/pokemon-detective/precache-manifest.4035f16b46326e7c1f506b2a3226f480.js",
+    "precache-manifest.208b965a531e045669c6d4543b148bf5.js": "/pokemon-detective/precache-manifest.208b965a531e045669c6d4543b148bf5.js",
     "service-worker.js": "/pokemon-detective/service-worker.js",
     "static/css/2.ec2531fa.chunk.css.map": "/pokemon-detective/static/css/2.ec2531fa.chunk.css.map",
-    "static/css/main.6874a158.chunk.css.map": "/pokemon-detective/static/css/main.6874a158.chunk.css.map",
+    "static/css/main.89f1041e.chunk.css.map": "/pokemon-detective/static/css/main.89f1041e.chunk.css.map",
     "static/js/2.520ffaf7.chunk.js.LICENSE.txt": "/pokemon-detective/static/js/2.520ffaf7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8e99f17f.js",
     "static/css/2.ec2531fa.chunk.css",
     "static/js/2.520ffaf7.chunk.js",
-    "static/css/main.6874a158.chunk.css",
+    "static/css/main.89f1041e.chunk.css",
     "static/js/main.e54902cc.chunk.js"
   ]
 }
