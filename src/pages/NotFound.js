@@ -8,8 +8,12 @@ import './NotFound.css';
 export default () =>
   <div className="NotFound">
     {/* <img src="./imgs/pokeball.png" className="notfound-logo" alt="pokeball" /> */}
-    <img src="./favicon_io/android-chrome-512x512.png" className="notfound-logo" alt="pokeball" />
+    <br></br>
     <h3>The page you were looking for is not here yet.</h3>
-    <br />
-    <a href="/">Go Home</a>
+    <img src="./favicon_io/android-chrome-192x192.png" className="notfound-logo" alt="pokeball" />
+    <br></br>
+    <br></br>
+    <a href={process.env.PUBLIC_URL+"/"}>Go Home</a>
+    <br></br>
+
   </div>;

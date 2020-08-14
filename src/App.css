@@ -2,7 +2,11 @@
   margin-top: 20px;
   text-align: center;
   font-family: "Pokemon", monospace;
-  position: absolute;
+
+  /* position: absolute; */
+  /* width: 90vh auto;
+  height: 90vh; */
+  align-self: center;
 }
 
 /* new */
@@ -11,15 +15,14 @@ body{
 }
 .App .navbar-brand{
   font-weight: bold;
-  font-size: 200%;
+  font-size: 169%;
   color: #ffd631;
 }
 .app-nav-bar {
   background-color: #3c5aa6;
   border-radius: 10px 40px;
-  border-style: groove;
+  border-style: double;
   border-width: 15px;
   border-color: #ffd631;
-  
 }
 
