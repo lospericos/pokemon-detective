@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6cd2cd4f580c0146f59406544872ca64",
+    "revision": "ac971435fae12c674ca7c4df761c64f2",
     "url": "/pokemon-detective/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pokemon-detective/static/css/2.ec2531fa.chunk.css"
   },
   {
-    "revision": "a0cf6e2b7524a4052d90",
-    "url": "/pokemon-detective/static/css/main.d2fc2d97.chunk.css"
+    "revision": "baccf592d60e5af16aba",
+    "url": "/pokemon-detective/static/css/main.60a0c779.chunk.css"
   },
   {
     "revision": "627ab0a8957371d5ccac",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pokemon-detective/static/js/2.520ffaf7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0cf6e2b7524a4052d90",
-    "url": "/pokemon-detective/static/js/main.cff01afb.chunk.js"
+    "revision": "baccf592d60e5af16aba",
+    "url": "/pokemon-detective/static/js/main.4356bb67.chunk.js"
   },
   {
     "revision": "9b21f60d97799c3b6713",
