@@ -40,7 +40,7 @@ class App extends Component {
       <div className="App">
         <Container>
           <Navbar collapseOnSelect className="app-nav-bar" variant="dark" expand="lg">
-            <Navbar.Brand href="/">Detective Poké &#x1F50D; </Navbar.Brand>
+            <Navbar.Brand href="/">DetectivePoké &#x1F50D; </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="">

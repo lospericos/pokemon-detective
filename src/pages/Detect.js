@@ -43,7 +43,7 @@ function Modal1() {
         <Modal.Header closeButton>
           <Modal.Title>CORRECTION?!?!?</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Who you callin wrong, buddy</Modal.Body>
+        <Modal.Body>Who you callin wrong, BITCH</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
@@ -356,6 +356,7 @@ export default class Detect extends Component {
           aria-controls="photo-selection-pane"
           aria-expanded={this.state.photoSettingsOpen}
           >
+
           Tap Here to Detect a Pokemon!
             <span className='panel-arrow'>
             { this.state.photoSettingsOpen
