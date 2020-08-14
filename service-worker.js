@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/pokemon-detective/precache-manifest.c4e5ee774b0de27006f5f0d5bcddb1a8.js"
+  "/pokemon-detective/precache-manifest.e2db151f35cd4efb7a6ec6d239ea4b76.js"
 );
 
 self.addEventListener('message', (event) => {
