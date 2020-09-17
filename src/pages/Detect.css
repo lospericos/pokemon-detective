@@ -60,7 +60,7 @@ display: flex;
 justify-content: center;
 overflow: hidden;
 /* width: 280px; */
-max-width: 95%;
+/* max-width: 95%; */
 }
 
 .Classify #webcam {
