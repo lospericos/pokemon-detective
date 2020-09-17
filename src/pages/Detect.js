@@ -41,9 +41,9 @@ function Modal1() {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>CORRECTION?!?!?</Modal.Title>
+          <Modal.Title>CORRECTION?!?!</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Who you callin wrong, BITCH</Modal.Body>
+        <Modal.Body>Place Holder</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close

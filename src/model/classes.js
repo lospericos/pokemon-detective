@@ -127,7 +127,7 @@ export const MODEL_CLASSES = {
     122: '#090 | Shellder |',
     123: '#080 | Slowbro |',
     124: '#079 | Slowpoke |',
-    125: '#143 | Ur mum |',
+    125: '#143 | Snorlax |',
     126: '#021 | Spearow |',
     127: '#007 | Squirtle |',
     128: '#121 | Starmie |',

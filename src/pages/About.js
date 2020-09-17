@@ -11,7 +11,8 @@ export default class Home extends Component {
       <div className="About container">
         <h1>About</h1>
         <p>
-          Use this website to identify your favorite Gen 1 Pokémon! (only to 85% accuracy)
+          Use this website to identify your favorite Gen 1 Pokémon! \n
+          Models images of pokemon using MobileNet to a 86% accuracy
           <br></br>
           <br></br>
           Please don't sue me Nintendo
