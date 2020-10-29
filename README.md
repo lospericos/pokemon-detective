@@ -4,7 +4,7 @@
 
 Progressive Web Application that takes or uploads an image and classifies said image as a Generation 1 Pokémon!
   - Image data obtained from Kaggle
-  - Image classification model built using Keras and trained using MobileNet architecture
+  - Image classification data pipeline built/processed using Keras and trained using MobileNet architecture
   - Model ported for web app use through Tensorflow.js
   - Web app framework built using React, React-Bootstrap
   - Offline functionality provided via Service Worker and IndexedDB APIs.
